@@ -1,0 +1,20 @@
+# dependencies
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+
+# build output
+frontend/dist/
+
+# secrets
+.env
+frontend/.env
+backend/.env
+
+# local customer data — never publish
+parda_crm.csv
+frontend/public/parda_crm.csv
+
+# editor
+.vscode/
+.idea/
